@@ -1,0 +1,21 @@
+# 依存関係
+node_modules/
+
+# ビルド出力
+dist/
+
+# 環境変数
+.env
+
+# ログ
+*.log
+
+# OS固有のファイル
+.DS_Store
+Thumbs.db
+
+# エディタ固有のファイル
+.vscode/
+.idea/
+*.swp
+*.swo
