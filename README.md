@@ -1,4 +1,4 @@
-# Dify Connect MCP Server
+# Dify Connect MCP
 
 Dify APIと連携するModel Context Protocol (MCP) サーバー。
 
@@ -79,7 +79,7 @@ Clineで使用するには、MCPサーバー設定ファイルに以下を追加
 ```json
 {
   "mcpServers": {
-    "dify-connect-mcp-server": {
+    "dify-connect-mcp": {
       "command": "/bin/bash",
       "args": ["<リポジトリのパス>/run-mcp.sh"],
       "disabled": false,
